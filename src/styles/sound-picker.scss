@@ -1,0 +1,18 @@
+.sound-picker {
+  &__button {
+    padding: 30px;
+    border: none;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    &_rain {
+      background-color: #4972a1;
+    }
+    &_beach {
+      background-color: #a14f49;
+    }
+  }
+  &__image {
+    height: 100%;
+  }
+}
